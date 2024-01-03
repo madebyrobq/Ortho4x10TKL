@@ -1,11 +1,21 @@
 # Ortho 4x10 TKL
- 
+
+### Summary
+
 An open-source custom mechanical keyboard featuring
 * 4x10 ortholinear 'tenkeyless' style layout
-* Raspberry PI RP2040 integrated microcontroller
+* Raspberry Pi RP2040 integrated microcontroller
 * USB-C
 * Hotswap sockets
 * Fully factory-assembled PCBA
+* QMK and Vial firmware
+
+### Goals
+
+The goals of this project were:
+1. Learn how to make a working PCBA mechanical keyboard
+2. Keep hardware features to the minimum (no LEDs, OLED, encoders, etc.)
+3. Fun and delighful > practical
 
 ### Photo
 
@@ -17,15 +27,27 @@ todo
 
 ### PCB
 
-Version 0.1.0 - First PCBA ordered from JLCPCB, it works!
+Version 0.1 - First PCBA ordered from JLCPCB, it works!
 
 ### Firmware
 
-todo
+Vial firmware is compiled [here](vial/)
+
+QMK firmware source will be added soon
 
 ### Case
 
 todo
+
+## What's Next
+
+I'm quite satisfied with getting this working, and I had to order a minimum of 5 PCBs so I don't plan on making more for a while. But if you find this and use it as an example, here are some ideas of what could be added or improved:
+* Cluster or consolidate the Reset and Boot pins. I was more concerned with finding a place they fit and were easy to route, but it's quite odd especially now that I know you have to either press them both simultaneously or hold Boot while plugging in the USB (which I put on opposite sides).
+* Improve routing and reduce PCB "forehead". Although I kind of like the look.
+* Support for more spacebar layouts like 2u
+* Add more hardware features like LEDs, ESD, etc.
+* Breakout pins to add hardware features or a daughterboard later
+* Try a different MCU. The Raspberry Pi is totally fine, but there are other MCUs that have more packaged features like flash and crystal, so that would be less parts required and easier to route.
 
 ## Thanks to
 
