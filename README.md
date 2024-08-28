@@ -24,7 +24,7 @@ todo
 
 ### Layout
 
-![](images/ortho4x10tkl.png)
+![](images/ortho4x10tkl-layout.png)
 
 Spacebar cluster supports 3x1U and 1x3U layouts. Stabilizers are not currently supported on the v0.1 PCB or Plate, but can be substituted with loose switches (like Cherry) to the side, or raw dog it without stabilizers and use a well-supported box-style switch in the center.
 
@@ -86,7 +86,7 @@ Can be 3D printed or CNC'd. The 3D printed variants simply have hex holes to fit
 | Plate                                     | [Laser Cut Plate](Case/)<br/>1.5mm brass / steel / etc. |
 | Top Case                                  |                [Multiple options](Case/)                |
 | Bottom Case                               |                  [STL or STEP](Case/)                   |
-| Screws                                    |                4x M2.5 12mm counter sunk                |
+| Screws                                    |                4x M2.5 10mm counter sunk                |
 | Hex standoffs or nuts<br>(if 3D printing) |                       4x M2.5 5mm                       |
 | Rubber feet/bumpons                       |                           4x                            |
 | Switches and keycaps                      |                      36 to 40 each                      |
@@ -114,7 +114,7 @@ For layout inspiration: Zicodia ("LMAO"), tominabox1 and whydobearsxplod ("QAZ")
 
 ## Disclaimer
 
-**Offered without warranty or liability! Use/modify/order at your own risk. No customer support.**
+**Offered without warranty or liability! Use / modify / order at your own risk. No customer support.**
 
 For a first attempt, and as a hobby project, it turned out quite well! But this was just for fun and not made with the rigor or intent to commercialize it (for now...) so it isn't perfect.
 
