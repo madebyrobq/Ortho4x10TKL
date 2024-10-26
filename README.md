@@ -1,5 +1,7 @@
 # Ortho 4x10 TKL v0.1
 
+![](images/ortho4x10tkl-photo.jpeg)
+
 ### Summary
 
 An open-source custom mechanical keyboard featuring
@@ -8,7 +10,7 @@ An open-source custom mechanical keyboard featuring
 * USB-C
 * Hotswap sockets
 * Fully factory-assembled PCBA
-* QMK and Vial firmware
+* QMK Vial firmware
 
 ### Goals
 
@@ -18,21 +20,17 @@ The goals of this project were:
 3. Fun and delighful > practical
 4. Companion for iPad Mini (6th gen)
 
-### Photo
-
-todo
-
 ### Layout
 
 ![](images/ortho4x10tkl-layout.png)
 
-Spacebar cluster supports 3x1U and 1x3U layouts. Stabilizers are not currently supported on the v0.1 PCB or Plate, but can be substituted with loose switches (like Cherry) to the side, or raw dog it without stabilizers and use a well-supported box-style switch in the center.
+Spacebar cluster supports 3x1U and 1x3U layouts. Stabilizers are not currently supported but can be substituted with loose switches if desired.
 
-Arrow cluster supports 4 or 6 keys, although most of the top cases in this repo will cover up 2 of them. Still, the switches are there if you prefer to have them.
+Arrow cluster supports 4 or 6 keys, although the top cases in this repo will cover up 2 of them. Still, the switches are there if you prefer to have them.
 
 ### Keymap
 
-This is my keymap, note that with VIAL firmware some setup will be manual in the VIAL application
+This is my keymap, note that with VIAL firmware some setup will be manual in the VIAL application or loaded from a saved layout
 
 ```
 Default Layer:
@@ -102,9 +100,13 @@ I'm quite satisfied with getting this working, and I had to order a minimum of 5
   * Cluster or consolidate the Reset and Boot pins. I was more concerned with finding a place they fit and were easy to route, but it's quite odd especially now that I know you have to either press them both simultaneously or hold Boot while plugging in the USB (which I put on opposite sides).
   * Improve routing and reduce PCB "forehead". But I kind of like the look.
   * Try another MCU. The Raspberry Pi is totally fine, but there are other MCUs that have more packaged features like flash and crystal, so that would be fewer parts to order, and easier to route.
-* Other features
+* Other hardware features
   * Add more hardware features like LEDs, ESD, etc.
   * Breakout pins to add hardware features or a daughter board later
+* Case
+  * Support for more devices
+  * Perfect the USB-C cutout
+  * Design out of a single piece of aluminum to reduce cost
 
 ## Thanks to
 
@@ -118,4 +120,4 @@ For layout inspiration: Zicodia ("LMAO"), tominabox1 and whydobearsxplod ("QAZ")
 
 For a first attempt, and as a hobby project, it turned out quite well! But this was just for fun and not made with the rigor or intent to commercialize it (for now...) so it isn't perfect.
 
-Feel free to use this repository under the license provided. If it helps you make something cool, I want to see it!
+Feel free to use this repository under the license provided. If it helps you make something cool, I would be happy to see it!
